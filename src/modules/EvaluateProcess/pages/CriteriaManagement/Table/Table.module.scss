@@ -1,0 +1,48 @@
+.wrapper {
+  border-collapse: collapse;
+  border: 1px solid #d6d6d6;
+  width: 100%;
+  tr,
+  th,
+  td {
+    border: none;
+    padding: 12px 24px;
+    text-align: left;
+  }
+
+  th {
+    border-bottom: 1px solid #d6d6d6;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.006em;
+    color: #141b29;
+    padding: 12px 24px;
+    background: #f0f0f1;
+  }
+  tr:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: #d6f5f3;
+    .action {
+      display: flex;
+      align-items: center;
+      gap: 17px;
+    }
+  }
+}
+.bin:hover svg path {
+  stroke: #e41d1d;
+}
+.pen:hover svg path {
+  fill: rgba(4, 132, 203, 1);
+}
+.content {
+  width: 309px;
+}
+.action {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}

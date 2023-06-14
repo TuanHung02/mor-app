@@ -1,0 +1,26 @@
+.search {
+  display: flex;
+  align-items: center;
+  input {
+    border: none;
+    flex: 1;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #999999;
+    outline: none;
+  }
+  padding: 8px;
+  width: 300px;
+  height: 36px;
+  border: 1px solid #999999;
+  border-radius: 57px;
+  gap: 10px;
+}
+.close {
+  &:hover {
+    cursor: pointer;
+    opacity: 0.9;
+  }
+}

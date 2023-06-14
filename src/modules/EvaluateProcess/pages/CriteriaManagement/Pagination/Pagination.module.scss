@@ -1,0 +1,55 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.page-number {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.click-page:hover {
+  cursor: pointer;
+}
+
+.unactive-btn {
+  pointer-events: none;
+  svg path {
+    fill: #babdc2;
+  }
+}
+
+.current-page {
+  color: #404145;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.24px;
+  padding: 4px;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.click-page {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.active-page {
+  color: #374fc7;
+  background: #e8eaed;
+  border-radius: 4px;
+}
+
+.dot {
+  display: none;
+}
+.active-dot {
+  display: flex;
+}

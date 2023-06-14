@@ -1,0 +1,39 @@
+.wrapper {
+  font-family: "Inter", sans-serif;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.9;
+  }
+}
+
+.blue {
+  background: #374fc7;
+}
+.white{
+  background-color: white;
+  color: #999999;
+  border: 1px solid #999999;
+}
+.large {
+  width: 201px;
+  height: 44px;
+}
+.medium {
+  width: 124px;
+  height: 44px;
+}
+.lightblue {
+  color: #0484cb;
+}
+.textButton {
+  background-color: transparent;
+  text-align: center;
+}
+.lightgreen {
+  color: #58b984;
+}

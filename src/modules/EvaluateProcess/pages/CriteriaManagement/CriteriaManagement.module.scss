@@ -1,0 +1,19 @@
+.container {
+  padding: 43px 24px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.toolbar {
+  display: flex;
+  gap: 12px;
+}
+.pagination {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-top: 20px;
+}

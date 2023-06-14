@@ -77,6 +77,7 @@ function CreateNewCriteria() {
   const [selectPosition, setSelectPosition] = useState("");
   // const [rows, setRows] = useState([defaultRow]);
   const [criteria, setCriteria] = useState(defaultCriteria);
+  console.log('add some log')
  
 
   const handleInputChange = (e) => {

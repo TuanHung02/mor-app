@@ -60,7 +60,7 @@ const defaultCriteria = {
   groupDesription: "",
   groupRows: [
     {
-      name: "",
+      name: "",  
       description: "",
       evaluationScale: [
         {
@@ -83,7 +83,7 @@ function CreateNewCriteria() {
   const handleInputChange = (e) => {
     const myName = e.target.name;
     const myValue = e.target.value; 
-
+    console.log('practice PR');
     setCriteria({
       ...criteria,
       [myName]: myValue,
